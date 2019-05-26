@@ -52,6 +52,20 @@
           <artifactId>junit</artifactId>
           <version>4.12</version>
       </dependency>
+    <!--添加spring-hadoop依赖-->
+      <dependency>
+        <groupId>org.springframework.data</groupId>
+        <artifactId>spring-data-hadoop</artifactId>
+        <version>2.5.0.RELEASE</version>
+      </dependency>
+
+    <!--添加spring boot依赖-->
+    <dependency>
+      <groupId>org.springframework.data</groupId>
+      <artifactId>spring-data-hadoop-boot</artifactId>
+      <version>2.5.0.RELEASE</version>
+    </dependency>
+
   </dependencies>
 
   <build>
